@@ -1,0 +1,32 @@
+{
+  "projectId": "d93fcac8-3eeb-44da-8215-a30c6b098b48",
+  "totalRequests": 5,
+  "avgResponseTimeMs": 0,
+  "p95ResponseTimeMs": 0,
+  "p99ResponseTimeMs": 0,
+  "requestsPerSecond": 0.14,
+  "successRate": 0,
+  "failureRate": 100,
+  "slowestEndpoints": [
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/register",
+      "avgResponseTimeMs": 0
+    }
+  ],
+  "fastestEndpoints": [
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/register",
+      "avgResponseTimeMs": 0
+    }
+  ],
+  "allEndpoints": [
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/register",
+      "avgResponseTimeMs": 0
+    }
+  ],
+  "generatedAt": "2026-07-08T10:43:10.556Z"
+}
