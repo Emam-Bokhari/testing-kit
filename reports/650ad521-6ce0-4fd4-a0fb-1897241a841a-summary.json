@@ -1,0 +1,427 @@
+{
+  "projectId": "650ad521-6ce0-4fd4-a0fb-1897241a841a",
+  "totalRequests": 239760,
+  "avgResponseTimeMs": 37.37,
+  "p95ResponseTimeMs": 95.74,
+  "p99ResponseTimeMs": 186.67,
+  "requestsPerSecond": 1929.34,
+  "successRate": 100,
+  "failureRate": 0,
+  "slowestEndpoints": [
+    {
+      "method": "DELETE",
+      "path": "/api/v1/messages/:messageId",
+      "avgResponseTimeMs": 43.8
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/payments/uddoktapay/redirect",
+      "avgResponseTimeMs": 42.8
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/photos",
+      "avgResponseTimeMs": 42.7
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/chats",
+      "avgResponseTimeMs": 42.65
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/messages/chat/:chatId",
+      "avgResponseTimeMs": 42.62
+    }
+  ],
+  "fastestEndpoints": [
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/verify-otp",
+      "avgResponseTimeMs": 32.19
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "avgResponseTimeMs": 32.6
+    },
+    {
+      "method": "GET",
+      "path": "/",
+      "avgResponseTimeMs": 33.46
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/faqs",
+      "avgResponseTimeMs": 34.32
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/refresh-token",
+      "avgResponseTimeMs": 34.46
+    }
+  ],
+  "allEndpoints": [
+    {
+      "method": "GET",
+      "path": "/",
+      "avgResponseTimeMs": 33.46
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/admins",
+      "avgResponseTimeMs": 39.59
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/admins",
+      "avgResponseTimeMs": 40.58
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/admins/:adminId",
+      "avgResponseTimeMs": 38.38
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/change-password",
+      "avgResponseTimeMs": 36
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/forget-password",
+      "avgResponseTimeMs": 36.15
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "avgResponseTimeMs": 32.6
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/refresh-token",
+      "avgResponseTimeMs": 34.46
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/register",
+      "avgResponseTimeMs": 34.99
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/resend-otp",
+      "avgResponseTimeMs": 34.61
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/reset-password",
+      "avgResponseTimeMs": 36.09
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/verify-otp",
+      "avgResponseTimeMs": 32.19
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/bg-remove",
+      "avgResponseTimeMs": 34.79
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bg-remove",
+      "avgResponseTimeMs": 36.31
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bg-remove/:jobId",
+      "avgResponseTimeMs": 35.49
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs",
+      "avgResponseTimeMs": 37.07
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/blogs",
+      "avgResponseTimeMs": 37.57
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/blogs/:blogId",
+      "avgResponseTimeMs": 39.85
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/blogs/:blogId",
+      "avgResponseTimeMs": 38.67
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs/:blogId",
+      "avgResponseTimeMs": 37.9
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/blogs/:blogId/featured",
+      "avgResponseTimeMs": 37.7
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs/featured",
+      "avgResponseTimeMs": 38.53
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/chats",
+      "avgResponseTimeMs": 37.93
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/chats",
+      "avgResponseTimeMs": 42.65
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/chats/:chatId",
+      "avgResponseTimeMs": 40.63
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/chats/:chatId/read",
+      "avgResponseTimeMs": 38.97
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/content-pages",
+      "avgResponseTimeMs": 34.84
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/content-pages/:type",
+      "avgResponseTimeMs": 36.63
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/content-pages/:type",
+      "avgResponseTimeMs": 35.24
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/content-pages/:type",
+      "avgResponseTimeMs": 34.56
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/credit-settings",
+      "avgResponseTimeMs": 37.41
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/credit-settings/:key",
+      "avgResponseTimeMs": 37.99
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/faqs",
+      "avgResponseTimeMs": 34.32
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/faqs",
+      "avgResponseTimeMs": 36.47
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/faqs/:faqId",
+      "avgResponseTimeMs": 38.59
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/faqs/:faqId",
+      "avgResponseTimeMs": 37.34
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/faqs/restore-all",
+      "avgResponseTimeMs": 40.49
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/fcm-tokens",
+      "avgResponseTimeMs": 40.5
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/messages",
+      "avgResponseTimeMs": 40.68
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/messages/:messageId",
+      "avgResponseTimeMs": 43.8
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/messages/chat/:chatId",
+      "avgResponseTimeMs": 42.62
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/payments/:paymentId",
+      "avgResponseTimeMs": 37.32
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/initiate",
+      "avgResponseTimeMs": 42.25
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/payments/uddoktapay/redirect",
+      "avgResponseTimeMs": 42.8
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/redirect",
+      "avgResponseTimeMs": 40.43
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/webhook",
+      "avgResponseTimeMs": 39.51
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/photos",
+      "avgResponseTimeMs": 42.7
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos",
+      "avgResponseTimeMs": 38.71
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/convert",
+      "avgResponseTimeMs": 35.78
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/pdf",
+      "avgResponseTimeMs": 35.03
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/print-layout",
+      "avgResponseTimeMs": 36.14
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/photos/:photoId/regenerate",
+      "avgResponseTimeMs": 35.8
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/reduce",
+      "avgResponseTimeMs": 38.55
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/reduce",
+      "avgResponseTimeMs": 36.21
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/resize",
+      "avgResponseTimeMs": 37.59
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/resize",
+      "avgResponseTimeMs": 36.71
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/supports",
+      "avgResponseTimeMs": 35.35
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/supports",
+      "avgResponseTimeMs": 34.81
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/supports/:supportId",
+      "avgResponseTimeMs": 34.85
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/supports/:supportId",
+      "avgResponseTimeMs": 34.93
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/supports/status/:supportId",
+      "avgResponseTimeMs": 34.52
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/upscales",
+      "avgResponseTimeMs": 37.2
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/upscales",
+      "avgResponseTimeMs": 39.03
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users",
+      "avgResponseTimeMs": 36.79
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/users/:userId",
+      "avgResponseTimeMs": 36.02
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users/:userId",
+      "avgResponseTimeMs": 35.87
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/users/:userId/status",
+      "avgResponseTimeMs": 36.06
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/users/me/profile",
+      "avgResponseTimeMs": 36.07
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/users/me/profile",
+      "avgResponseTimeMs": 36.72
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users/me/profile",
+      "avgResponseTimeMs": 36.28
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/wallets/me",
+      "avgResponseTimeMs": 37.93
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/wallets/me/history",
+      "avgResponseTimeMs": 37.9
+    }
+  ],
+  "generatedAt": "2026-07-08T03:05:08.860Z"
+}

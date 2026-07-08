@@ -1,0 +1,1452 @@
+{
+  "650ad521-6ce0-4fd4-a0fb-1897241a841a": [
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/register"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/login"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/verify-otp"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/resend-otp"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/forget-password"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/reset-password"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/change-password"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/refresh-token"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/supports"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/supports"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/supports/status/:supportId"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/supports/:supportId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/supports/:supportId"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/content-pages"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/content-pages/:type"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/content-pages/:type"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/content-pages/:type"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/faqs"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/faqs"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/faqs/restore-all"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/faqs/:faqId"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/faqs/:faqId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/blogs"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs/featured"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/blogs/:blogId"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/blogs/:blogId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs/:blogId"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/blogs/:blogId/featured"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/admins"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/admins"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/admins/:adminId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/users/:userId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users/:userId"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/users/me/profile"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/users/me/profile"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users/me/profile"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/users/:userId/status"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/chats"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/chats"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/chats/:chatId/read"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/chats/:chatId"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/messages"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/messages/chat/:chatId"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/messages/:messageId"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/fcm-tokens"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/photos"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/print-layout"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/convert"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/pdf"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/photos/:photoId/regenerate"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/upscales"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/upscales"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/initiate"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/payments/uddoktapay/redirect"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/redirect"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/webhook"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/payments/:paymentId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/wallets/me"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/wallets/me/history"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/credit-settings"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/credit-settings/:key"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/reduce"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/reduce"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/resize"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/resize"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/bg-remove"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bg-remove"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bg-remove/:jobId"
+    },
+    {
+      "method": "GET",
+      "path": "/"
+    }
+  ],
+  "d93fcac8-3eeb-44da-8215-a30c6b098b48": [
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/register"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/login"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/verify-otp"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/resend-otp"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/forget-password"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/reset-password"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/change-password"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/refresh-token"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/supports"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/supports"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/supports/status/:supportId"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/supports/:supportId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/supports/:supportId"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/content-pages"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/content-pages/:type"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/content-pages/:type"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/content-pages/:type"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/faqs"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/faqs"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/faqs/restore-all"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/faqs/:faqId"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/faqs/:faqId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/blogs"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs/featured"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/blogs/:blogId"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/blogs/:blogId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs/:blogId"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/blogs/:blogId/featured"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/admins"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/admins"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/admins/:adminId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/users/:userId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users/:userId"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/users/me/profile"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/users/me/profile"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users/me/profile"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/users/:userId/status"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/chats"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/chats"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/chats/:chatId/read"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/chats/:chatId"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/messages"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/messages/chat/:chatId"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/messages/:messageId"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/fcm-tokens"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/photos"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/print-layout"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/convert"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/pdf"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/photos/:photoId/regenerate"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/upscales"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/upscales"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/initiate"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/payments/uddoktapay/redirect"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/redirect"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/webhook"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/payments/:paymentId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/wallets/me"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/wallets/me/history"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/credit-settings"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/credit-settings/:key"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/reduce"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/reduce"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/resize"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/resize"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/bg-remove"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bg-remove"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bg-remove/:jobId"
+    },
+    {
+      "method": "GET",
+      "path": "/"
+    }
+  ],
+  "e1b4ebfd-8101-4739-9905-c9f43871099a": [
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/register"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/login"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/verify-otp"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/resend-otp"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/forget-password"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/reset-password"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/change-password"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/refresh-token"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/supports"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/supports"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/supports/status/:supportId"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/supports/:supportId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/supports/:supportId"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/content-pages"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/content-pages/:type"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/content-pages/:type"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/content-pages/:type"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/faqs"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/faqs"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/faqs/restore-all"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/faqs/:faqId"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/faqs/:faqId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/blogs"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs/featured"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/blogs/:blogId"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/blogs/:blogId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs/:blogId"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/blogs/:blogId/featured"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/admins"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/admins"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/admins/:adminId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/users/:userId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users/:userId"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/users/me/profile"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/users/me/profile"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users/me/profile"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/users/:userId/status"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/chats"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/chats"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/chats/:chatId/read"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/chats/:chatId"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/messages"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/messages/chat/:chatId"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/messages/:messageId"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/fcm-tokens"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/photos"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/print-layout"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/convert"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/pdf"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/photos/:photoId/regenerate"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/upscales"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/upscales"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/initiate"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/payments/uddoktapay/redirect"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/redirect"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/webhook"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/payments/:paymentId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/wallets/me"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/wallets/me/history"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/credit-settings"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/credit-settings/:key"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/reduce"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/reduce"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/resize"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/resize"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/bg-remove"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bg-remove"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bg-remove/:jobId"
+    },
+    {
+      "method": "GET",
+      "path": "/"
+    }
+  ],
+  "e4f5b36f-0e39-427b-9337-0c2294e538b6": [
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/register"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/login"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/verify-otp"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/resend-otp"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/forget-password"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/reset-password"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/change-password"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/refresh-token"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/supports"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/supports"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/supports/status/:supportId"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/supports/:supportId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/supports/:supportId"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/content-pages"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/content-pages/:type"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/content-pages/:type"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/content-pages/:type"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/faqs"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/faqs"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/faqs/restore-all"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/faqs/:faqId"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/faqs/:faqId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/blogs"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs/featured"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/blogs/:blogId"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/blogs/:blogId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs/:blogId"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/blogs/:blogId/featured"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/admins"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/admins"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/admins/:adminId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/users/:userId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users/:userId"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/users/me/profile"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/users/me/profile"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users/me/profile"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/users/:userId/status"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/chats"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/chats"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/chats/:chatId/read"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/chats/:chatId"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/messages"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/messages/chat/:chatId"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/messages/:messageId"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/fcm-tokens"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/photos"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/print-layout"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/convert"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/pdf"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/photos/:photoId/regenerate"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/upscales"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/upscales"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/initiate"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/payments/uddoktapay/redirect"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/redirect"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/webhook"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/payments/:paymentId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/wallets/me"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/wallets/me/history"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/credit-settings"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/credit-settings/:key"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/reduce"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/reduce"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/resize"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/resize"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/bg-remove"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bg-remove"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bg-remove/:jobId"
+    },
+    {
+      "method": "GET",
+      "path": "/"
+    }
+  ],
+  "2fbc5c55-8a62-48c5-a476-a8397a900972": [
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/register"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/login"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/verify-otp"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/resend-otp"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/forget-password"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/reset-password"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/change-password"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/refresh-token"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/supports"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/supports"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/supports/status/:supportId"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/supports/:supportId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/supports/:supportId"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/content-pages"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/content-pages/:type"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/content-pages/:type"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/content-pages/:type"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/faqs"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/faqs"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/faqs/restore-all"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/faqs/:faqId"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/faqs/:faqId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/blogs"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs/featured"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/blogs/:blogId"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/blogs/:blogId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/blogs/:blogId"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/blogs/:blogId/featured"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/admins"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/admins"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/admins/:adminId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/users/:userId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users/:userId"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/users/me/profile"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/users/me/profile"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/users/me/profile"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/users/:userId/status"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/chats"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/chats"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/chats/:chatId/read"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/chats/:chatId"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/messages"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/messages/chat/:chatId"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/messages/:messageId"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/fcm-tokens"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/photos"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/print-layout"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/convert"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/photos/:photoId/pdf"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/photos/:photoId/regenerate"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/upscales"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/upscales"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/initiate"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/payments/uddoktapay/redirect"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/redirect"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/payments/uddoktapay/webhook"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/payments/:paymentId"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/wallets/me"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/wallets/me/history"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/credit-settings"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/credit-settings/:key"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/reduce"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/reduce"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/resize"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/resize"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/bg-remove"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bg-remove"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/bg-remove/:jobId"
+    },
+    {
+      "method": "GET",
+      "path": "/"
+    }
+  ]
+}

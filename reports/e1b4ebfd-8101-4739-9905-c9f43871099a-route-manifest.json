@@ -1,0 +1,362 @@
+[
+  {
+    "metricName": "route_0",
+    "method": "POST",
+    "label": "/api/v1/auth/register"
+  },
+  {
+    "metricName": "route_1",
+    "method": "POST",
+    "label": "/api/v1/auth/login"
+  },
+  {
+    "metricName": "route_2",
+    "method": "POST",
+    "label": "/api/v1/auth/verify-otp"
+  },
+  {
+    "metricName": "route_3",
+    "method": "POST",
+    "label": "/api/v1/auth/resend-otp"
+  },
+  {
+    "metricName": "route_4",
+    "method": "POST",
+    "label": "/api/v1/auth/forget-password"
+  },
+  {
+    "metricName": "route_5",
+    "method": "POST",
+    "label": "/api/v1/auth/reset-password"
+  },
+  {
+    "metricName": "route_6",
+    "method": "POST",
+    "label": "/api/v1/auth/change-password"
+  },
+  {
+    "metricName": "route_7",
+    "method": "POST",
+    "label": "/api/v1/auth/refresh-token"
+  },
+  {
+    "metricName": "route_8",
+    "method": "GET",
+    "label": "/api/v1/supports"
+  },
+  {
+    "metricName": "route_9",
+    "method": "POST",
+    "label": "/api/v1/supports"
+  },
+  {
+    "metricName": "route_10",
+    "method": "PATCH",
+    "label": "/api/v1/supports/status/:supportId"
+  },
+  {
+    "metricName": "route_11",
+    "method": "DELETE",
+    "label": "/api/v1/supports/:supportId"
+  },
+  {
+    "metricName": "route_12",
+    "method": "GET",
+    "label": "/api/v1/supports/:supportId"
+  },
+  {
+    "metricName": "route_13",
+    "method": "POST",
+    "label": "/api/v1/content-pages"
+  },
+  {
+    "metricName": "route_14",
+    "method": "DELETE",
+    "label": "/api/v1/content-pages/:type"
+  },
+  {
+    "metricName": "route_15",
+    "method": "PATCH",
+    "label": "/api/v1/content-pages/:type"
+  },
+  {
+    "metricName": "route_16",
+    "method": "GET",
+    "label": "/api/v1/content-pages/:type"
+  },
+  {
+    "metricName": "route_17",
+    "method": "GET",
+    "label": "/api/v1/faqs"
+  },
+  {
+    "metricName": "route_18",
+    "method": "POST",
+    "label": "/api/v1/faqs"
+  },
+  {
+    "metricName": "route_19",
+    "method": "PATCH",
+    "label": "/api/v1/faqs/restore-all"
+  },
+  {
+    "metricName": "route_20",
+    "method": "DELETE",
+    "label": "/api/v1/faqs/:faqId"
+  },
+  {
+    "metricName": "route_21",
+    "method": "PATCH",
+    "label": "/api/v1/faqs/:faqId"
+  },
+  {
+    "metricName": "route_22",
+    "method": "GET",
+    "label": "/api/v1/blogs"
+  },
+  {
+    "metricName": "route_23",
+    "method": "POST",
+    "label": "/api/v1/blogs"
+  },
+  {
+    "metricName": "route_24",
+    "method": "GET",
+    "label": "/api/v1/blogs/featured"
+  },
+  {
+    "metricName": "route_25",
+    "method": "DELETE",
+    "label": "/api/v1/blogs/:blogId"
+  },
+  {
+    "metricName": "route_26",
+    "method": "PATCH",
+    "label": "/api/v1/blogs/:blogId"
+  },
+  {
+    "metricName": "route_27",
+    "method": "GET",
+    "label": "/api/v1/blogs/:blogId"
+  },
+  {
+    "metricName": "route_28",
+    "method": "PATCH",
+    "label": "/api/v1/blogs/:blogId/featured"
+  },
+  {
+    "metricName": "route_29",
+    "method": "GET",
+    "label": "/api/v1/admins"
+  },
+  {
+    "metricName": "route_30",
+    "method": "POST",
+    "label": "/api/v1/admins"
+  },
+  {
+    "metricName": "route_31",
+    "method": "DELETE",
+    "label": "/api/v1/admins/:adminId"
+  },
+  {
+    "metricName": "route_32",
+    "method": "GET",
+    "label": "/api/v1/users"
+  },
+  {
+    "metricName": "route_33",
+    "method": "DELETE",
+    "label": "/api/v1/users/:userId"
+  },
+  {
+    "metricName": "route_34",
+    "method": "GET",
+    "label": "/api/v1/users/:userId"
+  },
+  {
+    "metricName": "route_35",
+    "method": "DELETE",
+    "label": "/api/v1/users/me/profile"
+  },
+  {
+    "metricName": "route_36",
+    "method": "PATCH",
+    "label": "/api/v1/users/me/profile"
+  },
+  {
+    "metricName": "route_37",
+    "method": "GET",
+    "label": "/api/v1/users/me/profile"
+  },
+  {
+    "metricName": "route_38",
+    "method": "PATCH",
+    "label": "/api/v1/users/:userId/status"
+  },
+  {
+    "metricName": "route_39",
+    "method": "GET",
+    "label": "/api/v1/chats"
+  },
+  {
+    "metricName": "route_40",
+    "method": "POST",
+    "label": "/api/v1/chats"
+  },
+  {
+    "metricName": "route_41",
+    "method": "PATCH",
+    "label": "/api/v1/chats/:chatId/read"
+  },
+  {
+    "metricName": "route_42",
+    "method": "DELETE",
+    "label": "/api/v1/chats/:chatId"
+  },
+  {
+    "metricName": "route_43",
+    "method": "POST",
+    "label": "/api/v1/messages"
+  },
+  {
+    "metricName": "route_44",
+    "method": "GET",
+    "label": "/api/v1/messages/chat/:chatId"
+  },
+  {
+    "metricName": "route_45",
+    "method": "DELETE",
+    "label": "/api/v1/messages/:messageId"
+  },
+  {
+    "metricName": "route_46",
+    "method": "POST",
+    "label": "/api/v1/fcm-tokens"
+  },
+  {
+    "metricName": "route_47",
+    "method": "GET",
+    "label": "/api/v1/photos"
+  },
+  {
+    "metricName": "route_48",
+    "method": "POST",
+    "label": "/api/v1/photos"
+  },
+  {
+    "metricName": "route_49",
+    "method": "POST",
+    "label": "/api/v1/photos/:photoId/print-layout"
+  },
+  {
+    "metricName": "route_50",
+    "method": "POST",
+    "label": "/api/v1/photos/:photoId/convert"
+  },
+  {
+    "metricName": "route_51",
+    "method": "POST",
+    "label": "/api/v1/photos/:photoId/pdf"
+  },
+  {
+    "metricName": "route_52",
+    "method": "PATCH",
+    "label": "/api/v1/photos/:photoId/regenerate"
+  },
+  {
+    "metricName": "route_53",
+    "method": "GET",
+    "label": "/api/v1/upscales"
+  },
+  {
+    "metricName": "route_54",
+    "method": "POST",
+    "label": "/api/v1/upscales"
+  },
+  {
+    "metricName": "route_55",
+    "method": "POST",
+    "label": "/api/v1/payments/uddoktapay/initiate"
+  },
+  {
+    "metricName": "route_56",
+    "method": "GET",
+    "label": "/api/v1/payments/uddoktapay/redirect"
+  },
+  {
+    "metricName": "route_57",
+    "method": "POST",
+    "label": "/api/v1/payments/uddoktapay/redirect"
+  },
+  {
+    "metricName": "route_58",
+    "method": "POST",
+    "label": "/api/v1/payments/uddoktapay/webhook"
+  },
+  {
+    "metricName": "route_59",
+    "method": "GET",
+    "label": "/api/v1/payments/:paymentId"
+  },
+  {
+    "metricName": "route_60",
+    "method": "GET",
+    "label": "/api/v1/wallets/me"
+  },
+  {
+    "metricName": "route_61",
+    "method": "GET",
+    "label": "/api/v1/wallets/me/history"
+  },
+  {
+    "metricName": "route_62",
+    "method": "GET",
+    "label": "/api/v1/credit-settings"
+  },
+  {
+    "metricName": "route_63",
+    "method": "PATCH",
+    "label": "/api/v1/credit-settings/:key"
+  },
+  {
+    "metricName": "route_64",
+    "method": "POST",
+    "label": "/api/v1/reduce"
+  },
+  {
+    "metricName": "route_65",
+    "method": "GET",
+    "label": "/api/v1/reduce"
+  },
+  {
+    "metricName": "route_66",
+    "method": "GET",
+    "label": "/api/v1/resize"
+  },
+  {
+    "metricName": "route_67",
+    "method": "POST",
+    "label": "/api/v1/resize"
+  },
+  {
+    "metricName": "route_68",
+    "method": "POST",
+    "label": "/api/v1/bg-remove"
+  },
+  {
+    "metricName": "route_69",
+    "method": "GET",
+    "label": "/api/v1/bg-remove"
+  },
+  {
+    "metricName": "route_70",
+    "method": "GET",
+    "label": "/api/v1/bg-remove/:jobId"
+  },
+  {
+    "metricName": "route_71",
+    "method": "GET",
+    "label": "/"
+  }
+]

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Performance Report - 2fbc5c55-8a62-48c5-a476-a8397a900972</title>
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; background: #0f172a; color: #e2e8f0; margin: 0; padding: 32px; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .subtitle { color: #94a3b8; margin-bottom: 24px; font-size: 13px; }
+  .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 32px; }
+  .card { background: #1e293b; border-radius: 8px; padding: 16px; }
+  .card .label { color: #94a3b8; font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .card .value { font-size: 24px; font-weight: 700; margin-top: 4px; }
+  .success { color: #4ade80; }
+  .failure { color: #f87171; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 32px; }
+  th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid #334155; font-size: 13px; }
+  th { color: #94a3b8; font-weight: 600; }
+  h2 { font-size: 16px; margin-top: 32px; }
+</style>
+</head>
+<body>
+  <h1>Performance Test Report</h1>
+  <div class="subtitle">Project: 2fbc5c55-8a62-48c5-a476-a8397a900972 &middot; Generated: 2026-07-08T11:05:21.798Z</div>
+
+  <div class="grid">
+    <div class="card"><div class="label">Total Requests</div><div class="value">34272</div></div>
+    <div class="card"><div class="label">Requests / sec</div><div class="value">420.63</div></div>
+    <div class="card"><div class="label">Avg Response Time</div><div class="value">266.09 ms</div></div>
+    <div class="card"><div class="label">P95</div><div class="value">271.68 ms</div></div>
+    <div class="card"><div class="label">P99</div><div class="value">708.43 ms</div></div>
+    <div class="card"><div class="label">Success Rate</div><div class="value success">100%</div></div>
+    <div class="card"><div class="label">Failure Rate</div><div class="value failure">0%</div></div>
+  </div>
+
+  <h2>Slowest Endpoints</h2>
+  <table>
+    <thead><tr><th>Method</th><th>Path</th><th>Avg Response Time</th></tr></thead>
+    <tbody><tr><td>POST</td><td>/api/v1/auth/register</td><td>279.41 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/payments/uddoktapay/redirect</td><td>275.5 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/credit-settings</td><td>274.36 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/supports</td><td>272.15 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/resize</td><td>272.07 ms</td></tr></tbody>
+  </table>
+
+  <h2>Fastest Endpoints</h2>
+  <table>
+    <thead><tr><th>Method</th><th>Path</th><th>Avg Response Time</th></tr></thead>
+    <tbody><tr><td>PATCH</td><td>/api/v1/blogs/:blogId</td><td>257.37 ms</td></tr>
+<tr><td>DELETE</td><td>/api/v1/blogs/:blogId</td><td>258.24 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/users/:userId</td><td>258.64 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/blogs/:blogId</td><td>259.44 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/photos</td><td>260.61 ms</td></tr></tbody>
+  </table>
+
+  <h2>All Endpoints (72)</h2>
+  <table>
+    <thead><tr><th>Method</th><th>Path</th><th>Avg Response Time</th></tr></thead>
+    <tbody><tr><td>GET</td><td>/</td><td>270.16 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/admins</td><td>263.47 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/admins</td><td>269.43 ms</td></tr>
+<tr><td>DELETE</td><td>/api/v1/admins/:adminId</td><td>263.79 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/auth/change-password</td><td>263.68 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/auth/forget-password</td><td>266.19 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/auth/login</td><td>267.27 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/auth/refresh-token</td><td>262.92 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/auth/register</td><td>279.41 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/auth/resend-otp</td><td>266.24 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/auth/reset-password</td><td>264.1 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/auth/verify-otp</td><td>265.69 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/bg-remove</td><td>262.51 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/bg-remove</td><td>262.05 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/bg-remove/:jobId</td><td>266.75 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/blogs</td><td>265.25 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/blogs</td><td>269.07 ms</td></tr>
+<tr><td>DELETE</td><td>/api/v1/blogs/:blogId</td><td>258.24 ms</td></tr>
+<tr><td>PATCH</td><td>/api/v1/blogs/:blogId</td><td>257.37 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/blogs/:blogId</td><td>259.44 ms</td></tr>
+<tr><td>PATCH</td><td>/api/v1/blogs/:blogId/featured</td><td>261.21 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/blogs/featured</td><td>263.89 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/chats</td><td>265.92 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/chats</td><td>268.92 ms</td></tr>
+<tr><td>DELETE</td><td>/api/v1/chats/:chatId</td><td>265.6 ms</td></tr>
+<tr><td>PATCH</td><td>/api/v1/chats/:chatId/read</td><td>264.08 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/content-pages</td><td>265.44 ms</td></tr>
+<tr><td>DELETE</td><td>/api/v1/content-pages/:type</td><td>265.56 ms</td></tr>
+<tr><td>PATCH</td><td>/api/v1/content-pages/:type</td><td>262.28 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/content-pages/:type</td><td>265.42 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/credit-settings</td><td>274.36 ms</td></tr>
+<tr><td>PATCH</td><td>/api/v1/credit-settings/:key</td><td>267.55 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/faqs</td><td>264.68 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/faqs</td><td>266.34 ms</td></tr>
+<tr><td>DELETE</td><td>/api/v1/faqs/:faqId</td><td>264.32 ms</td></tr>
+<tr><td>PATCH</td><td>/api/v1/faqs/:faqId</td><td>265.7 ms</td></tr>
+<tr><td>PATCH</td><td>/api/v1/faqs/restore-all</td><td>266.67 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/fcm-tokens</td><td>267.05 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/messages</td><td>265.68 ms</td></tr>
+<tr><td>DELETE</td><td>/api/v1/messages/:messageId</td><td>269.89 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/messages/chat/:chatId</td><td>267.18 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/payments/:paymentId</td><td>270.95 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/payments/uddoktapay/initiate</td><td>264.91 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/payments/uddoktapay/redirect</td><td>275.5 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/payments/uddoktapay/redirect</td><td>267.63 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/payments/uddoktapay/webhook</td><td>265.07 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/photos</td><td>260.61 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/photos</td><td>266.33 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/photos/:photoId/convert</td><td>262.08 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/photos/:photoId/pdf</td><td>265.73 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/photos/:photoId/print-layout</td><td>270.1 ms</td></tr>
+<tr><td>PATCH</td><td>/api/v1/photos/:photoId/regenerate</td><td>268.76 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/reduce</td><td>263.13 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/reduce</td><td>271.9 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/resize</td><td>265.22 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/resize</td><td>272.07 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/supports</td><td>272.15 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/supports</td><td>265.63 ms</td></tr>
+<tr><td>DELETE</td><td>/api/v1/supports/:supportId</td><td>262.85 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/supports/:supportId</td><td>270.18 ms</td></tr>
+<tr><td>PATCH</td><td>/api/v1/supports/status/:supportId</td><td>267.36 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/upscales</td><td>268.66 ms</td></tr>
+<tr><td>POST</td><td>/api/v1/upscales</td><td>269.13 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/users</td><td>262.06 ms</td></tr>
+<tr><td>DELETE</td><td>/api/v1/users/:userId</td><td>262.96 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/users/:userId</td><td>258.64 ms</td></tr>
+<tr><td>PATCH</td><td>/api/v1/users/:userId/status</td><td>265.62 ms</td></tr>
+<tr><td>DELETE</td><td>/api/v1/users/me/profile</td><td>262.32 ms</td></tr>
+<tr><td>PATCH</td><td>/api/v1/users/me/profile</td><td>269.97 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/users/me/profile</td><td>263.67 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/wallets/me</td><td>270.31 ms</td></tr>
+<tr><td>GET</td><td>/api/v1/wallets/me/history</td><td>265.93 ms</td></tr></tbody>
+  </table>
+</body>
+</html>
